@@ -1,0 +1,119 @@
+<!DOCTYPE html>  
+<html lang="zh">  
+<head>  
+    <link rel="icon" href="./满穗.png" type="image/png"><!-- 顶部的图标 -->  
+    
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>工具的中转站</title>  
+    <style>  
+        body {  
+            font-family: 'Arial', sans-serif;  
+            line-height: 1.6;  
+            margin: 0;  
+            padding: 0;  
+            background: rgba(255, 255, 255, 0.8) url('./单人主体\ \(10\).jpg') no-repeat center center fixed;  
+            background-size: cover;  
+            color: #333;  
+        }  
+        header {  
+            background-color: rgba(51, 51, 51, 0.9);  
+            color: white;  
+            padding: 20px;  
+            text-align: center;  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+        }  
+        h1, h2 {  
+            margin: 0;  
+            color: #000000; /* 统一标题颜色 */  
+        }  
+        a {  
+            color: #007BFF;  
+            text-decoration: none;  
+            transition: color 0.3s;  
+        }  
+        a:hover {  
+            color: #0056b3; /* 悬停时更换颜色 */  
+            text-decoration: underline;  
+        }  
+        .container {  
+            width: 90%;  
+            max-width: 1200px; /* 最大宽度设置 */  
+            margin: auto;  
+            display: grid;  
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));  
+            gap: 20px;  
+            padding: 20px; /* 内边距 */  
+        }  
+        .card {  
+            padding: 20px;  
+            border-radius: 8px;  
+            box-shadow: 0 4px 15px rgba(149, 149, 149, 0.2);  
+            background-color: rgba(255, 255, 255, 0.9);  
+            display: flex;  
+            flex-direction: column;  
+            align-items: center;  
+            justify-content: center;  
+            text-align: center;  
+            transition: transform 0.3s; /* 加入动画效果 */  
+        }  
+        .card:hover {  
+            transform: translateY(-5px); /* 悬停时轻微上移 */  
+        }  
+        .card h2 {  
+            margin: 10px 0; /* 增加间距 */  
+            font-size: 1.5em; /* 统一标题大小 */  
+        }  
+        .card a {  
+            display: block;  
+            margin: 8px 0;  
+            padding: 10px 15px; /* 增加按钮填充 */  
+            border-radius: 5px;  
+            background-color: #007BFF;  
+            color: white; /* 链接文本颜色 */  
+        }  
+        .card a:hover {  
+            background-color: #0056b3; /* 按钮悬停颜色 */  
+        }  
+        .home-link {  
+            position: absolute;  
+            top: 20px;  
+            left: 20px;  
+            color: white;  
+            text-decoration: none;  
+            font-weight: bold;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <h1 style="color: aliceblue;">梦想未来的小站</h1>  
+    </header>  
+    <div class="container">  
+        <div class="card">  
+            <h2>PPT</h2>  
+            <a href="./ppt相关.html">PPT相关</a>  
+        </div>  
+        <div class="card">  
+            <h2>AI</h2>  
+            <a href="./AI相关.html">AI相关</a>  
+        </div>  
+        <div class="card">  
+            <h2>PS</h2>  
+            <a href="./ps相关.html">PS相关</a>  
+        </div>  
+        <div class="card">  
+            <h2>论文</h2>  
+            <a href="./论文相关.html">论文相关</a>  
+        </div>  
+        <div class="card">  
+            <h2>剪辑</h2>  
+            <a href="./剪辑相关.html">剪辑相关</a>  
+        </div>  
+        <div class="card">  
+            <h2>英语学习</h2>  
+            <a href="./英语.html">英语相关</a>  
+        </div>  
+    </div>  
+</body>  
+</html>
